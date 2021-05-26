@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+body {
+  background: -webkit-gradient(linear, left bottom, right top, from(#616060), to(black));
+  background: linear-gradient(to right top, #616060, black);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Secular One', sans-serif;
+  letter-spacing: 2px;
+}
+
+.container {
+  margin: 2em;
+  margin-top: 4em;
+  text-align: center;
+  color: blanchedalmond;
+}
+
+.btn {
+  border: blanchedalmond solid;
+  background: #2e2d2b;
+  border-radius: 0%;
+  margin: 1em;
+  padding: 1.4em;
+  cursor: pointer;
+  display: block;
+  font-size: 30px;
+}
+
+.btn:hover {
+  background: blanchedalmond;
+  color: #2e2d2b;
+}
+
+.nav {
+  display: none;
+}
+
+.link {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  color: blanchedalmond;
+  border: blanchedalmond solid;
+  padding: .5em;
+  margin: .5em;
+  position: relative;
+  display: block;
+}
+
+.head {
+  text-align: center;
+  margin: none;
+  padding-top: 3em;
+}
+
+.head img {
+  padding-bottom: .7em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  border: none;
+  border-radius: 50%;
+}
+
+.head a {
+  border: none;
+  font-size: 27px;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  color: blanchedalmond;
+  font-weight: bold;
+}
+
+footer a, footer p {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  color: black;
+  text-align: center;
+}
+
+footer a {
+  font-weight: bolder;
+}
+
+.feed {
+  display: none;
+}
+
+@media only screen and (max-width: 468px) {
+  img {
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 468px) {
+  .container {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+}
+
+@media only screen and (min-width: 730px) {
+  .container {
+    padding-top: 2em;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    padding: 10px;
+  }
+  .container .btn {
+    padding: 1.5em;
+  }
+  .feed {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  iframe {
+    margin: 2em;
+    padding-top: 3em;
+    display: inline-block;
+    height: 630px;
+    width: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  iframe::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  iframe {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  footer {
+    -ms-flex-item-align: center;
+        align-self: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 4em;
+  }
+}
+
+@media only screen and (min-width: 966px) {
+  .container {
+    width: 55%;
+  }
+  iframe {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 1114px) {
+  .container {
+    width: 57%;
+  }
+  iframe {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
