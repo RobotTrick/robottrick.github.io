@@ -136,6 +136,7 @@ footer a {
     /* Firefox */
   }
   footer {
+    margin-right: 50%;
     -ms-flex-item-align: center;
         align-self: center;
     position: relative;
